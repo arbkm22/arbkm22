@@ -7,8 +7,6 @@
 
 - 👯 I’m looking to collaborate on **Open Source Prokects**
 
-- 👨‍💻 All of my projects are available at [www.github.com/arbkm22]
-
 - 💬 Ask me about **Games and Sports**
 
 - ⚡ Fun fact **I love playing Football, volleyball and badminton**
@@ -21,7 +19,6 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=arbkm22&show_icons=true" alt="arbkm22" /></p>
 
 <h2>Connect with me!</h2>
-<pre>
 <p align="center">
 <a href="https://twitter.com/bhaskar_maht0" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="bhaskar_maht0" height="30" width="30" /></a>    
 <a href="https://linkedin.com/in/bhaskar-mahto" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="bhaskar-mahto" height="30" width="30" /></a>   
@@ -30,4 +27,3 @@
 <a href="https://www.hackerrank.com/arbkm22" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/hackerrank.svg" alt="arbkm22" height="30" width="30" /></a>  
 <a href="https://codeforces.com/profile/hellking22" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codeforces.svg" alt="hellking22" height="30" width="30" /></a>    
 </p>
-</pre>
