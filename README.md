@@ -1,37 +1,29 @@
-### Hi there, I'm Bhaskar 👋
+<h1 align="center">Hi 👋, I'm Bhaskar Mahto</h1>
+<h3 align="center">Student, exploring the endless possibilities</h3>
 
-## I'm a Student.
+- 🔭 I’m currently working on **Online Python Compiler**
 
-- 🔭 I’m currently working on an Online Python Compiler.
-- 🌱 I’m currently learning Python and Django
-- 🥅 2020 Goals: Contribute more to Open Source projects
-- ⚡ Fun fact: I love playing football, volleyball and watching anime.
+- 🌱 I’m currently learning **Python, Django**
 
+- 👯 I’m looking to collaborate on **Open Source Prokects**
 
-### Connect with me:
+- 👨‍💻 All of my projects are available at [www.github.com/arbkm22](www.github.com/arbkm22)
 
-[<img align="left" alt="arbkm22 | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][facebook]
-[<img align="left" alt="arbkm22 | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
-[<img align="left" alt="arbkm22 | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="arbkm22 | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
+- 💬 Ask me about **Games and Sports**
 
-<br />
+- ⚡ Fun fact **I love playing Football, volleyball and badminton**
 
-### Languages and Tools:
+<p align="left"><img src="https://devicons.github.io/devicon/devicon.git/icons/c/c-original.svg" alt="c" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> <img src="https://devicons.github.io/devicon/devicon.git/icons/python/python-original.svg" alt="python" width="40" height="40"/></p>
 
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arbkm22&layout=compact" alt="arbkm22" /></p>
 
-<br />
-<br />
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=arbkm22&show_icons=true" alt="arbkm22" /></p>
 
-<details>
-  <summary>:zap: Github Stats</summary>
-
-  <img align="left" alt="Bhaskar's Github Stats" src="https://github-readme-stats.arbkm22.vercel.app/api?username=codeSTACKr&show_icons=true&hide_border=true" />
-
-</details>
-
-[facebook]: https:www.facebook.com/arbkm22/
-[website]: https://codeSTACKr.com
-[twitter]: https://twitter.com/bhaskar_maht0
-[instagram]: https://instagram.com/bhaskar_mahto
-[linkedin]: https://linkedin.com/in/bhaskar_mahto
+<p align="center">
+<a href="https://twitter.com/bhaskar_maht0" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="bhaskar_maht0" height="30" width="30" /></a>
+<a href="https://linkedin.com/in/bhaskar-mahto" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="bhaskar-mahto" height="30" width="30" /></a>
+<a href="https://fb.com/arbkm22" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="arbkm22" height="30" width="30" /></a>
+<a href="https://instagram.com/bhaskar_mahto" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="bhaskar_mahto" height="30" width="30" /></a>
+<a href="https://www.hackerrank.com/arbkm22" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/hackerrank.svg" alt="arbkm22" height="30" width="30" /></a>
+<a href="https://codeforces.com/profile/hellking22" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codeforces.svg" alt="hellking22" height="30" width="30" /></a>
+</p>
