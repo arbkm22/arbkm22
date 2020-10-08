@@ -5,7 +5,7 @@
 
 - 🌱 I’m currently learning **Python, Django**
 
-- 👯 I’m looking to collaborate on **Open Source Prokects**
+- 👯 I’m looking to collaborate on **Open Source Projekts**
 
 - 💬 Ask me about **Games and Sports**
 
