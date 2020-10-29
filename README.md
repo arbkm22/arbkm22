@@ -19,7 +19,7 @@
     <img src="https://devicons.github.io/devicon/devicon.git/icons/python/python-original.svg" alt="python" width="40" height="40"/>
     <img src="https://devicons.github.io/devicon/devicon.git/icons/atom/atom-original.svg" alt="atom" width="40" height="40"/>
     <img src="https://devicons.github.io/devicon/devicon.git/icons/django/django-original.svg" alt="django" width="40" height="40"/>
-    <img src="https://devicons.github.io/devicon/devicon.git/icons/html/html-original.svg" alt="html" width="40" height="40"/>
+    <img src="https://devicons.github.io/devicon/devicon.git/icons/css/css-original.svg" alt="html" width="40" height="40"/>
 </p>
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arbkm22&layout=compact" alt="arbkm22" /></p>
