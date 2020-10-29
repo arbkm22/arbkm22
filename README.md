@@ -23,7 +23,7 @@
 
 
 <a href="https://github.com/arbkm22/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=arbkm22&repo=github-readme-stats" />
+  <p>[![Bhaskar's github stats](https://github-readme-stats.vercel.app/api?username=arbkm22)](https://github.com/anuraghazra/github-readme-stats)</p>
 </a>
 <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arbkm22&layout=compact&count_private=true" />
 
