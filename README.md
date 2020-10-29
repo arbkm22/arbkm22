@@ -19,12 +19,11 @@
     <img src="https://devicons.github.io/devicon/devicon.git/icons/python/python-original.svg" alt="python" width="40" height="40"/>
     <img src="https://devicons.github.io/devicon/devicon.git/icons/atom/atom-original.svg" alt="atom" width="40" height="40"/>
     <img src="https://devicons.github.io/devicon/devicon.git/icons/django/django-original.svg" alt="django" width="40" height="40"/>
-    <img src="https://devicons.github.io/devicon/devicon.git/icons/css/css-original.svg" alt="html" width="40" height="40"/>
 </p>
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arbkm22&layout=compact" alt="arbkm22" /></p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arbkm22&layout=compact" alt="arbkm22" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=arbkm22&show_icons=true" alt="arbkm22" /></p>
+<p>&nbsp;<img align="right" src="https://github-readme-stats.vercel.app/api?username=arbkm22&show_icons=true" alt="arbkm22" /></p>
 
 <h2 align="center">Connect with me!</h2>
 <p align="center">
