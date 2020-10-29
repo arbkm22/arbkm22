@@ -21,8 +21,10 @@
     <img src="https://devicons.github.io/devicon/devicon.git/icons/django/django-original.svg" alt="django" width="40" height="40"/>
 </p>
 
-<img alt="Bhaskar's github stats" align=right height="190" src="https://github-readme-stats.vercel.app/api?username=arbkm22&&show_icons=true&count_private=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=151515" >
 
+<a href="https://github.com/arbkm22/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=arbkm22&repo=github-readme-stats" />
+</a>
 <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arbkm22&layout=compact&count_private=true" />
 
 <h2 align="center">Connect with me!</h2>
