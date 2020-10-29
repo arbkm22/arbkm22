@@ -9,7 +9,7 @@
 
 - 💬 Ask me about **Games and Sports**
 
-- ⚡ Fun fact **I love playing Football, volleyball and badminton**
+- ⚡ Fun fact **I love playing football and volleyball**
 
 <h2 align="center">Languages and Tools</h2>
 <p align="center">
