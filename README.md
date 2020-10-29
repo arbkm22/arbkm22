@@ -23,7 +23,7 @@
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arbkm22&layout=compact" alt="arbkm22" /></p>
 
-<p>&nbsp;<img align="right" src="https://github-readme-stats.vercel.app/api?username=arbkm22&show_icons=true" alt="arbkm22" /></p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api?username=arbkm22&show_icons=true" alt="arbkm22" /></p>
 
 <h2 align="center">Connect with me!</h2>
 <p align="center">
