@@ -34,7 +34,5 @@
 <a href="https://twitter.com/bhaskar_maht0" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="bhaskar_maht0" height="30" width="30" /></a>    
 <a href="https://linkedin.com/in/bhaskar-mahto" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="bhaskar-mahto" height="30" width="30" /></a>   
 <a href="https://fb.com/arbkm22" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="arbkm22" height="30" width="30" /></a>    
-<a href="https://instagram.com/bhaskar_mahto" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="bhaskar_mahto" height="30" width="30" /></a>    
-<a href="https://www.hackerrank.com/arbkm22" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/hackerrank.svg" alt="arbkm22" height="30" width="30" /></a>  
-<a href="https://codeforces.com/profile/hellking22" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codeforces.svg" alt="hellking22" height="30" width="30" /></a>    
+<a href="https://instagram.com/bhaskar_mahto" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="bhaskar_mahto" height="30" width="30" /></a>     
 </p>
