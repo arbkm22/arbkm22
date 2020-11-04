@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on **OtakuGeeks and a Telegram Bot**
 
-- 🌱 I’m currently learning **Web Development**
+- 🌱 I’m currently learning **Data Structure & Algorithms**
 
 - 👯 I’m looking to collaborate on **Open Source Projekts**
 
