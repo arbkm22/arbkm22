@@ -13,7 +13,7 @@
 
 <h2 align="center">Languages and Tools</h2>
 <p align="center">
-    <img alt="C++" src="https://img.shields.io/badge/CPlusPlus-00599C?logo=cplusplus&logoColor=white&style=for-the-badge" />
+    <img alt="C++" src="https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white&style=for-the-badge" />
     <img alt="C" src="https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=white&style=for-the-badge" />
     <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge" />
     <img alt="Django" src="https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white&style=for-the-badge" />
