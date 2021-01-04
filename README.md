@@ -21,7 +21,7 @@
     <img alt="Arch Linux" src="https://img.shields.io/badge/Arch-Linux-1793D1?logo=arch-linux&logoColor=white&style=for-the-badge" />
     <img alt="Git" src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge" />
     <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge" />
-    <img alt="Visual Studio Code" src="https://img.shields.io/badge/VisualStudioCode-181717?logo=visualstudiocode&logoColor=white&style=for-the-badge" />
+    <img alt="Visual Studio Code" src="https://img.shields.io/badge/VisualStudioCode-007ACC?logo=visualstudiocode&logoColor=white&style=for-the-badge" />
 </p>
 
 <a href="https://github.com/arbkm22" target="_blank">
