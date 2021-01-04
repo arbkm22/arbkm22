@@ -13,7 +13,7 @@
 
 <h2 align="center">Languages and Tools</h2>
 <p align="center">
-    <img alt="C++" src="https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white&style=for-the-badge" />
+    <img alt="C++" src="https://img.shields.io/badge/CPlusPlus-00599C?logo=cplusplus&logoColor=white&style=for-the-badge" />
     <img alt="C" src="https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=white&style=for-the-badge" />
     <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge" />
     <img alt="Django" src="https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white&style=for-the-badge" />
@@ -21,7 +21,7 @@
     <img alt="Arch Linux" src="https://img.shields.io/badge/Arch-Linux-1793D1?logo=archlinux&logoColor=white&style=for-the-badge" />
     <img alt="Git" src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge" />
     <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge" />
-    <img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual-Studio-Code-007ACC?logo=visualstudiocode&logoColor=white&style=for-the-badge" />
+    <img alt="Visual Studio Code" src="https://img.shields.io/badge/VisualStudioCode-007ACC?logo=visualstudiocode&logoColor=white&style=for-the-badge" />
 </p>
 
 <a href="https://github.com/arbkm22" target="_blank">
