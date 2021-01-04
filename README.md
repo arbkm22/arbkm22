@@ -14,7 +14,7 @@
 <h2 align="center">Languages and Tools</h2>
 <p align="center">
     <img alt="React" src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white&style=for-the-badge" />
-    <img alt="C++" src="https://img.shields.io/badge/C++-00599C?logo=c++&logoColor=white&style=for-the-badge" />
+    <img alt="C++" src="https://img.shields.io/badge/C++-00599C?logo=cpp&logoColor=white&style=for-the-badge" />
 </p>
 
 <a href="https://github.com/arbkm22" target="_blank">
