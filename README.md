@@ -7,7 +7,7 @@
 
 - 👯 I’m looking to collaborate on **Open Source Projekts**
 
-- 💬 Ask me about **Games and Sports**
+- 💬 Ask me about **Video Games and Sports**
 
 - ⚡ Fun fact **I love playing football and volleyball**
 
