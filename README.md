@@ -5,7 +5,7 @@
 
 - 🌱 I’m currently learning **Data Structure & Algorithms**
 
-- 👯 I’m looking to collaborate on **Open Source Projekts**
+- 👯 I’m looking to collaborate on **Open Source Projects**
 
 - 💬 Ask me about **Video Games and Sports**
 
