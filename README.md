@@ -28,9 +28,7 @@
 
 <p align="left">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=arbkm22&show_icons=true&cache_seconds=60&locale=en&layout=compact" alt="arbkm22"/> 
-</p>
-<p align="right">
-  <img src="https://github-readme-stats.vercel.app/api?username=arbkm22&show_icons=true&cache_seconds=60&locale=en" alt="arbkm22"/>
+  <img align="right" src="https://github-readme-stats.vercel.app/api?username=arbkm22&show_icons=true&cache_seconds=60&locale=en" alt="arbkm22"/>
 </p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=arbkm22&" alt="arbkm22" /></p>
