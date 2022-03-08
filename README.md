@@ -9,7 +9,7 @@
 
 - 💬 Ask me about **anything**
 
-- 📫 Reach me @ **[my telegram](t.mme/bhasar_mahto)**
+- 📫 Reach me at **[telegram](https://t.me/bhasar_mahto)**
 
 - ⚡ Fun fact **Bing Chilling**
 
