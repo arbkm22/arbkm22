@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Bhaskar Mahto</h1>
 <h3 align="center">Student, exploring the endless possibilities.</h3>
 
-- 🔭 I’m currently working on **an Android App**
+- 🔭 I’m currently working on **an Android App and an API**
 
 - 🌱 I’m currently learning **Android App Development**
 
