@@ -11,7 +11,7 @@
 
 - 📫 Say **hi 👋**  **[here](https://t.me/bhaskar_mahto)**
 
-- ⚡ Fun fact **Bing Chilling**
+- ⚡ Fun fact **Talonflame haunts me in my dreams.**
 
 <h3 align="center">Connect with me:</h3>
 <p align="center">
