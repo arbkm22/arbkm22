@@ -11,7 +11,7 @@
 
 - 📫 Say **hi 👋**  **[here](https://t.me/bhaskar_mahto)**
 
-- ⚡ Fun fact **Bing Chilling**
+- ⚡ Fun fact **I made this edit to continue my streak**
 
 <h3 align="center">Connect with me:</h3>
 <p align="center">
