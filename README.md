@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Bhaskar Mahto</h1>
 <h3 align="center">Student, exploring the endless possibilities.</h3>
 
-- 🔭 I’m currently working on **MovieX - an unofficial YTS.mx android app.**
+- 🔭 I’m currently working on **Nothing.**
 
-- 🌱 I’m currently learning **Android App Development**
+- 🌱 I’m currently learning **React.JS**
 
 - 👯 I’m looking to collaborate on **Open Source Projects**
 
