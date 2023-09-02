@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Bhaskar Mahto</h1>
 <h3 align="center">Student, exploring the endless possibilities.</h3>
 
-- 🔭 I’m currently working on **Nothing.**
+- 🔭 I’m currently working on **Bash Script to change Wallpapers based on the time of the day**
 
 - 🌱 I’m currently learning **React.JS**
 
