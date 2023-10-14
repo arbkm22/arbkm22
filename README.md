@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Bhaskar Mahto</h1>
 <h3 align="center">Student, exploring the endless possibilities.</h3>
 
-- 🔭 I’m currently working on **web version of Higher**
+- 🔭 I’m currently working on **multipurpose whatsapp bot for gc**
 
 - 🌱 I’m currently learning **React.JS**
 
