@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on **telegram bot for job hunting**
 
-- 🌱 I’m currently learning **React.JS**
+- 🌱 I’m currently learning **Rust**
 
 - 👯 I’m looking to collaborate on **Open Source Projects**
 
