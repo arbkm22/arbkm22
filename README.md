@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Bhaskar Mahto</h1>
+<h1 align="center">Hi 👋, I'm Bhaskar</h1>
 <h3 align="center">Student, exploring the endless possibilities.</h3>
 
 - 🔭 I’m currently working on **telegram bot for job hunting**
