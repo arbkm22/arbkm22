@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Bhaskar</h1>
 <h3 align="center">Student, exploring the endless possibilities.</h3>
 
-- 🔭 I’m currently working on **telegram bot for job hunting**
+- 🔭 I’m currently working on **building games with react**
 
-- 🌱 I’m currently learning **Rust**
+- 🌱 I’m currently learning **React**
 
 - 👯 I’m looking to collaborate on **Open Source Projects**
 
