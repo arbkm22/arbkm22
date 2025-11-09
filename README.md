@@ -11,7 +11,7 @@
 
 - 📫 Say **hi 👋**  **[here](https://t.me/bhaskar_mahto)**
 
-- ⚡ Fun fact **It takes time to build shit**
+- ⚡ Fun fact **if you remove b from bananas, you will get pineapples**
 
 <h3 align="center">Connect with me:</h3>
 <p align="center">
