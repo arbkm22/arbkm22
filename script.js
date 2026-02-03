@@ -99,45 +99,77 @@ function createParticles() {
 }
 
 function createFloatingGeometries() {
-    const geometryTypes = [
-        new THREE.TorusKnotGeometry(1, 0.3, 100, 16),
-        new THREE.IcosahedronGeometry(1.5, 0),
-        new THREE.OctahedronGeometry(1.5),
-        new THREE.TetrahedronGeometry(1.5)
-    ];
-
-    for (let i = 0; i < 8; i++) {
-        const geometry = geometryTypes[Math.floor(Math.random() * geometryTypes.length)];
+    // Create planets (larger spheres with different textures)
+    const planetCount = 4;
+    for (let i = 0; i < planetCount; i++) {
+        const planetSize = 1.5 + Math.random() * 1.5; // Random sizes between 1.5 and 3
+        const geometry = new THREE.SphereGeometry(planetSize, 32, 32);
+        
+        // Different planet appearances
         const material = new THREE.MeshPhysicalMaterial({
-            color: new THREE.Color().setHSL(Math.random(), 0.8, 0.5),
-            metalness: 0.8,
-            roughness: 0.2,
+            color: new THREE.Color().setHSL(Math.random(), 0.6, 0.5),
+            metalness: 0.3,
+            roughness: 0.7,
             transparent: true,
-            opacity: 0.6,
-            wireframe: Math.random() > 0.5
+            opacity: 0.8
         });
 
-        const mesh = new THREE.Mesh(geometry, material);
-        mesh.position.set(
+        const planet = new THREE.Mesh(geometry, material);
+        planet.position.set(
             (Math.random() - 0.5) * 60,
             (Math.random() - 0.5) * 60,
             (Math.random() - 0.5) * 60
         );
-        mesh.rotation.set(
+        planet.rotation.set(
             Math.random() * Math.PI,
             Math.random() * Math.PI,
             Math.random() * Math.PI
         );
-        mesh.userData = {
+        planet.userData = {
             rotationSpeed: {
-                x: (Math.random() - 0.5) * 0.01,
-                y: (Math.random() - 0.5) * 0.01,
-                z: (Math.random() - 0.5) * 0.01
+                x: (Math.random() - 0.5) * 0.005,
+                y: (Math.random() - 0.5) * 0.005,
+                z: (Math.random() - 0.5) * 0.005
             }
         };
 
-        geometries.push(mesh);
-        scene.add(mesh);
+        geometries.push(planet);
+        scene.add(planet);
+    }
+
+    // Create stars (small glowing spheres)
+    const starCount = 4;
+    for (let i = 0; i < starCount; i++) {
+        const starSize = 0.3 + Math.random() * 0.5; // Small sizes
+        const geometry = new THREE.SphereGeometry(starSize, 16, 16);
+        
+        const starColor = new THREE.Color().setHSL(Math.random() * 0.1 + 0.15, 1.0, 0.9);
+        const material = new THREE.MeshBasicMaterial({
+            color: starColor,
+            transparent: true,
+            opacity: 0.9
+        });
+
+        // Add a point light at star position for glow effect
+        const starLight = new THREE.PointLight(starColor, 1, 20);
+        const star = new THREE.Mesh(geometry, material);
+        star.add(starLight);
+        
+        star.position.set(
+            (Math.random() - 0.5) * 60,
+            (Math.random() - 0.5) * 60,
+            (Math.random() - 0.5) * 60
+        );
+        star.userData = {
+            rotationSpeed: {
+                x: (Math.random() - 0.5) * 0.002,
+                y: (Math.random() - 0.5) * 0.002,
+                z: (Math.random() - 0.5) * 0.002
+            }
+        };
+
+        geometries.push(star);
+        scene.add(star);
     }
 }
 
@@ -187,8 +219,8 @@ navAnchors.forEach(link => {
 
 // ===== Typewriter Effect =====
 const texts = [
-    'Creative Developer',
-    'UI/UX Designer',
+    'Software Developer',
+    'Full Stack Engineer',
     'Problem Solver',
     'Tech Enthusiast'
 ];
