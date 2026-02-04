@@ -98,78 +98,120 @@ function createParticles() {
     scene.add(particles);
 }
 
-function createFloatingGeometries() {
-    // Create planets (larger spheres with different textures)
-    const planetCount = 4;
-    for (let i = 0; i < planetCount; i++) {
-        const planetSize = 1.5 + Math.random() * 1.5; // Random sizes between 1.5 and 3
-        const geometry = new THREE.SphereGeometry(planetSize, 32, 32);
-        
-        // Different planet appearances
-        const material = new THREE.MeshPhysicalMaterial({
-            color: new THREE.Color().setHSL(Math.random(), 0.6, 0.5),
-            metalness: 0.3,
-            roughness: 0.7,
+// Store exhaust trails
+let exhaustTrails = [];
+
+function createAirplane(scale = 1) {
+    const airplane = new THREE.Group();
+    
+    // Fuselage (main body)
+    const fuselageGeometry = new THREE.CylinderGeometry(0.15 * scale, 0.2 * scale, 1.2 * scale, 8);
+    const fuselageMaterial = new THREE.MeshPhongMaterial({ 
+        color: 0xcccccc,
+        metalness: 0.5,
+        shininess: 30
+    });
+    const fuselage = new THREE.Mesh(fuselageGeometry, fuselageMaterial);
+    fuselage.rotation.z = Math.PI / 2;
+    airplane.add(fuselage);
+    
+    // Wings
+    const wingGeometry = new THREE.BoxGeometry(2 * scale, 0.05 * scale, 0.5 * scale);
+    const wingMaterial = new THREE.MeshPhongMaterial({ 
+        color: 0xaaaaaa,
+        metalness: 0.4
+    });
+    const wings = new THREE.Mesh(wingGeometry, wingMaterial);
+    wings.position.y = -0.05 * scale;
+    airplane.add(wings);
+    
+    // Tail wing
+    const tailGeometry = new THREE.BoxGeometry(0.6 * scale, 0.05 * scale, 0.4 * scale);
+    const tail = new THREE.Mesh(tailGeometry, wingMaterial);
+    tail.position.set(-0.5 * scale, -0.05 * scale, 0);
+    airplane.add(tail);
+    
+    // Vertical stabilizer
+    const vStabGeometry = new THREE.BoxGeometry(0.05 * scale, 0.4 * scale, 0.3 * scale);
+    const vStab = new THREE.Mesh(vStabGeometry, wingMaterial);
+    vStab.position.set(-0.5 * scale, 0.15 * scale, 0);
+    airplane.add(vStab);
+    
+    return airplane;
+}
+
+function createExhaustTrail(position, color) {
+    const trail = {
+        particles: [],
+        maxParticles: 20,
+        position: position.clone()
+    };
+    
+    for (let i = 0; i < trail.maxParticles; i++) {
+        const particleGeometry = new THREE.SphereGeometry(0.1, 8, 8);
+        const particleMaterial = new THREE.MeshBasicMaterial({
+            color: color,
             transparent: true,
-            opacity: 0.8
+            opacity: 0
         });
-
-        const planet = new THREE.Mesh(geometry, material);
-        planet.position.set(
-            (Math.random() - 0.5) * 60,
-            (Math.random() - 0.5) * 60,
-            (Math.random() - 0.5) * 60
-        );
-        planet.rotation.set(
-            Math.random() * Math.PI,
-            Math.random() * Math.PI,
-            Math.random() * Math.PI
-        );
-        planet.userData = {
-            rotationSpeed: {
-                x: (Math.random() - 0.5) * 0.005,
-                y: (Math.random() - 0.5) * 0.005,
-                z: (Math.random() - 0.5) * 0.005
-            }
-        };
-
-        geometries.push(planet);
-        scene.add(planet);
+        const particle = new THREE.Mesh(particleGeometry, particleMaterial);
+        particle.visible = false;
+        scene.add(particle);
+        trail.particles.push(particle);
     }
+    
+    return trail;
+}
 
-    // Create stars (small glowing spheres)
-    const starCount = 4;
-    for (let i = 0; i < starCount; i++) {
-        const starSize = 0.3 + Math.random() * 0.5; // Small sizes
-        const geometry = new THREE.SphereGeometry(starSize, 16, 16);
+function createFloatingGeometries() {
+    // Create airplanes
+    const airplaneCount = 8;
+    for (let i = 0; i < airplaneCount; i++) {
+        const airplane = createAirplane(0.8);
         
-        const starColor = new THREE.Color().setHSL(Math.random() * 0.1 + 0.15, 1.0, 0.9);
-        const material = new THREE.MeshBasicMaterial({
-            color: starColor,
-            transparent: true,
-            opacity: 0.9
+        // Random color scheme
+        const hue = Math.random();
+        airplane.children.forEach(child => {
+            if (child.material) {
+                child.material.color.setHSL(hue, 0.5, 0.6);
+            }
         });
-
-        // Add a point light at star position for glow effect
-        const starLight = new THREE.PointLight(starColor, 1, 20);
-        const star = new THREE.Mesh(geometry, material);
-        star.add(starLight);
         
-        star.position.set(
+        airplane.position.set(
             (Math.random() - 0.5) * 60,
             (Math.random() - 0.5) * 60,
             (Math.random() - 0.5) * 60
         );
-        star.userData = {
+        
+        // Random orientation
+        airplane.rotation.set(
+            Math.random() * Math.PI * 2,
+            Math.random() * Math.PI * 2,
+            Math.random() * Math.PI * 2
+        );
+        
+        // Movement data
+        airplane.userData = {
+            velocity: new THREE.Vector3(
+                (Math.random() - 0.5) * 0.1,
+                (Math.random() - 0.5) * 0.1,
+                (Math.random() - 0.5) * 0.1
+            ),
             rotationSpeed: {
-                x: (Math.random() - 0.5) * 0.002,
-                y: (Math.random() - 0.5) * 0.002,
-                z: (Math.random() - 0.5) * 0.002
+                x: (Math.random() - 0.5) * 0.01,
+                y: (Math.random() - 0.5) * 0.01,
+                z: (Math.random() - 0.5) * 0.01
             }
         };
+        
+        // Create exhaust trail
+        const exhaustColor = new THREE.Color().setHSL(0.1, 0.3, 0.5);
+        airplane.userData.exhaustTrail = createExhaustTrail(airplane.position, exhaustColor);
+        airplane.userData.exhaustIndex = 0;
+        exhaustTrails.push(airplane.userData.exhaustTrail);
 
-        geometries.push(star);
-        scene.add(star);
+        geometries.push(airplane);
+        scene.add(airplane);
     }
 }
 
@@ -182,11 +224,59 @@ function animate() {
         particles.rotation.x += 0.0003;
     }
 
-    // Animate geometries
-    geometries.forEach(mesh => {
-        mesh.rotation.x += mesh.userData.rotationSpeed.x;
-        mesh.rotation.y += mesh.userData.rotationSpeed.y;
-        mesh.rotation.z += mesh.userData.rotationSpeed.z;
+    // Animate airplanes
+    geometries.forEach(airplane => {
+        // Move airplane
+        airplane.position.add(airplane.userData.velocity);
+        
+        // Rotate airplane slightly
+        airplane.rotation.x += airplane.userData.rotationSpeed.x;
+        airplane.rotation.y += airplane.userData.rotationSpeed.y;
+        airplane.rotation.z += airplane.userData.rotationSpeed.z;
+        
+        // Bounce off boundaries
+        const boundary = 50;
+        if (Math.abs(airplane.position.x) > boundary) {
+            airplane.userData.velocity.x *= -1;
+        }
+        if (Math.abs(airplane.position.y) > boundary) {
+            airplane.userData.velocity.y *= -1;
+        }
+        if (Math.abs(airplane.position.z) > boundary) {
+            airplane.userData.velocity.z *= -1;
+        }
+        
+        // Update exhaust trail
+        if (airplane.userData.exhaustTrail) {
+            const trail = airplane.userData.exhaustTrail;
+            const currentIndex = airplane.userData.exhaustIndex;
+            const particle = trail.particles[currentIndex];
+            
+            // Position particle behind the airplane
+            const backOffset = new THREE.Vector3(-0.6, 0, 0);
+            backOffset.applyQuaternion(airplane.quaternion);
+            particle.position.copy(airplane.position).add(backOffset);
+            
+            particle.visible = true;
+            particle.material.opacity = 0.6;
+            particle.scale.set(1, 1, 1);
+            
+            // Update index for next frame
+            airplane.userData.exhaustIndex = (currentIndex + 1) % trail.maxParticles;
+        }
+    });
+    
+    // Fade out exhaust particles
+    exhaustTrails.forEach(trail => {
+        trail.particles.forEach(particle => {
+            if (particle.visible) {
+                particle.material.opacity *= 0.96;
+                particle.scale.multiplyScalar(1.02);
+                if (particle.material.opacity < 0.01) {
+                    particle.visible = false;
+                }
+            }
+        });
     });
 
     controls.update();
