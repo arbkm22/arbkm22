@@ -108,7 +108,6 @@ function createAirplane(scale = 1) {
     const fuselageGeometry = new THREE.CylinderGeometry(0.15 * scale, 0.2 * scale, 1.2 * scale, 8);
     const fuselageMaterial = new THREE.MeshPhongMaterial({ 
         color: 0xcccccc,
-        metalness: 0.5,
         shininess: 30
     });
     const fuselage = new THREE.Mesh(fuselageGeometry, fuselageMaterial);
@@ -119,7 +118,7 @@ function createAirplane(scale = 1) {
     const wingGeometry = new THREE.BoxGeometry(2 * scale, 0.05 * scale, 0.5 * scale);
     const wingMaterial = new THREE.MeshPhongMaterial({ 
         color: 0xaaaaaa,
-        metalness: 0.4
+        shininess: 20
     });
     const wings = new THREE.Mesh(wingGeometry, wingMaterial);
     wings.position.y = -0.05 * scale;
